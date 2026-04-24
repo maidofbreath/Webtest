@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Cox Web Design Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="PStylo.css"> 
+    </head>
+<body>
+    <header> <!--Just sits there, the text doesn't makes sense without the button page though -->
+        <img style="width: 200px; height:200px;" src="boom.png">
+        <h1>Kaboom!</h1>
+        <h3>Here I am: Kacy Cox</h3>
+    </header>
+    <nav>
+        <ul> <!--Nav bar, style sheet makes it horizontal -->
+            <li><a href="#What">Explaination</a></li>
+            <li><a href="#Past">Examples</a></li>
+            <li><a href="#Self">Bio</a></li>
+        </ul>
+    </nav>
+    
+    <h2>What I Do:</h2><!--Complicated section! This section does not animate in Firefox. Still readable, not as cool.-->
+   <div id="What">
+        <img id="head" src="Head.png"> <!--this me 'ead -->
+        <div id="squishbox"> <!--Needs its own div to set grid display so everything is right next to each other (or on top of each other, as in the text) -->
+         <img id="handl" src="HandL.png"> 
+         <h5 id="func">Function</h5> <h5 id="pers">Personality</h5> <h5 id="fun">Fun</h5>
+         <img id="handr" src="HandR.png">  
+         <!--In css, you can find the animations for each element here is set to scroll timeline. This is why it does not work in Firefox. 
+         The "hands" will push the text "Function" and "Fun" into each other, merging to form the word "Personality"-->
+         </div>
+           <p id="intro"> 
+            We've progressed far past the design standard of flashy gifs and tiled Jpeg backgrounds that gave the early days of HTML its charm. 
+            While I understand the need for sophistication in modern design (and ease of use), I still mourn when websites were as entertaining as they were informative.
+            Therefore, I aim to find the perfect balance between fun, functionality, and practicallity in all of my websites.
+            I try my best to add personality in a tasteful way to ensure your website has a memorable UX.</p>
+    </div>
+
+    
+    <div id="Past"> <!--Also complicated, but works in all browsers. Each website will be pulled out of box on hover to display web thumbnail-->
+        <h2>What I Did:</h2>
+        
+        <div id="Stage">
+            <div id="text">
+        <p>Here, you can find past projects of mine. From top to bottom, these websites chronicle my web design journey, starting with learning how to make a webpage at all, all the way to this page! I intend to update this section as time goes on, eventually omitting the more primative pages to make room for pages that beat even this portfolio in quality.
+            I start incredibly simple, making an unstyled html about web design components. In this project, I made an effort to put characters that require entity names to practice their use. 
+            From there, I practiced a bit of formatting and aesthetics, focusing on the nav bar and adding links. All style decisions were made without CSS. 
+            After creating a separate webpage that links to the original, I involved CSS to take my first steps into visual design. I used borders galore! 
+            I made a new page from there to dive deeper into CSS layouts, making a reactive nav bar that looks a bit prettier and putting a background image. 
+            Lastly, I took a shot at grid layouts to make my turtle care webpage. Besides the animations practiced here, it was probably my most ambitious design project. Almost every aspect of the page was tweaked more than before to fit the vision I had. I'm very proud of it. 
+        </p>
+        </div>
+            <div id="box"> <img id="pop" src="BoxBack.png"></div>
+            <div id="web1"> <a href="Websites/Kacy Cox First Website.html"><img id="weeb" src="Thumbnails/Web1.png"></a> </div>
+            <div id="web2"> <a href="Websites/index.html"><img id="weeb" src="Thumbnails/Web2.png"></a></div>
+            <div id="web3"> <a href="Websites/Lab 4 Kacy Cox/yup.html"><img id="weeb" src="Thumbnails/Web3.png"></a> </div>
+            <div id="web4"> <a href="Websites/Lab 5 Kacy Cox/webdesign.html"><img id="weeb" src="Thumbnails/Web4.png"></a> </div>
+            <div id="web5"> <a href="Websites/ 6/Turtle1.html"><img id="weeb" src="Thumbnails/Web5.png"></a></div>
+            <div id="box"> <img id="pop" src="Box.png"></div>
+            
+        </div>
+
+    </div>
+   <div id="Self"> <!--Simple section! Just text-->
+    <h2>What I Is:</h2>
+    <p>
+        I am Kacy Cox, as previously mentioned! I'm a student at Lorain County Community College working towards an associates degree in Web Design.
+        Not to keep talking about my professional prowess, but I find great enjoyment in creating websites that push my skills.
+        I've been inspired by websites I used to troll in my childhood and sites like those you can find on <a href="https://theuselessweb.com/">"The Useless Web"</a>. 
+        I used to waste class time on that website, marvelling at a use of html I had never before witnessed. 
+        If I could find it again I would rejoice, but I once found a website where a guy hosted a lot of ethereal games made, I believe, entirely within the confines of HTML, CSS, and JavaScript.
+        Regardless, I hope one day I can replicate the creativity and technical skill reflected in a lot of these websites. 
+        As for the rest of me, I like cats, reading thrillers, playing Magic: The Gathering, and sleeping!  
+    </p>
+   </div>
+   <footer> <!--Felt no need to style this section, also if I made this a paragraph element I would have to jump through a couple of hoops. This is fine as is.-->
+    Made by Kacy Cox for Lorain County Community College
+   </footer>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+ <!doctype HTML> 
+<html lang="en">
+<head>
+    <title>First Website Lab 1</title>
+</head>
+<body>
+    <h1>Web Development Basics</h1>
+    <h4>Written by Kacy Cox for CISS 216 Web Development<br>
+    for Lorain County Community College</h4>
+    <h2>Introduction to HTML</h2> <!-- To make reading the text easier, I indented each sentence even though the indents will be ignored when run -->
+    <p>HTML, short for Hyper Text Markup Language, is a markup language used on nearly every webpage on the internet. 
+        A markup language defines the content of a document and organizes the formatting of the content. 
+        HTML, being the standard for web pages, is used to organize the text and semantics of a document meant to be viewed on the internet. 
+        It can also dictate the meta data for a webpage, making it easier for search engines to find webpages and load them faster. 
+        A major component of HTML is an element. 
+        An element is, essentially, a part of the page that serves a purpose. 
+        These elements are usually denoted and initiated by the presence of tags. 
+        For a basic example, a heading element would be portrayed in code by typing &quot;&lt;h1&gt; Enter Heading Here&lt;/h1&gt;&quot;. <!-- entity names for quotations and apostrophes ESSENTIAL, alongside carrots but that one is obvious -->
+        In this example, the tag &quot;h1&quot; indicates the type of element the text is but is not the element itself. 
+        HTML is then, essentially, a bunch of elements nested within each other, working together to create the webpage as desired by the developer. 
+        These elements can be tweaked by use of attributes, which are added to the beginning tag. 
+        For example, in the hyperlink element, you must add the address to which the link will carry the user to. 
+        This link is added with the &quot;href&quot; attribute, making the line of code look as such:
+    <pre>&lt;a href=https://canvas.lorainccc.edu/courses/89348&gt; Canvas Homepage &lt;/a&gt;</pre> <!-- Pre element coming in clutch, so much easier than a million "br"s -->
+    When combined with CSS for stylization and JavaScript for scripting, HTML creates the webpages you see across the internet such as the Lorain County Community College landing page.</p> 
+    <h2>Introduciton to CSS</h2> 
+    <p>CSS, short for Cascade Style Sheets, is a styling language that dictates how elements from HTML will appear on webpages. 
+        It is used to design the fonts, colors, and other layout elements of a webpage for aesthetics and accessibility. 
+        CSS is useful for the stylization of HTML webpages because a single style sheet can be inserted into several webpages to achieve the same look. 
+        It works by defining how HTML components should appear, using intuitive language in the process. 
+        You simply define the selector for the component you want to style, then write declarations to denote the style choices. 
+        For example, if I wanted all main heading elements to appear yellow and be right aligned, I would declare the color and text align properties as such: 
+<pre>H1{
+       Color: yellow; 
+       Text-align: right;
+}</pre> 
+Before the widespread use of CSS, all style choices were encoded to each individual component in the HTML sheet. 
+That made for a lot of repetitive, cluttered lines of markup and made it harder to maintain error free. 
+</p>
+    <h2>Introduciton to JavaScript</h2>
+    <p>JavaScript is a programming language used by nearly every webpage on the internet, meant to run executables on the computer of each webpage viewer. 
+        It is used to, in layman's terms, personalize the webpage experience for each user. 
+        Things such as running animations, sending messages, or sorting user inputted data are all tasks JavaScript handles. 
+        The script is placed directly into the page using the script tag, typically located where the script is going to be used. 
+        For example, if a pop-up message is desired, the developer would insert this into the head element: 
+<pre>&lt;script&gt; 
+	alert(&quot;hey, what&apos;s up?&quot;);
+&lt;/script&gt;</pre> 
+Complex scripts can be put into a separate file and linked to by inserting the &quot;src&quot; attribute in the script tag. 
+Javascript consists of statements that dictate a task the code will do. 
+At its most basic, these statements are made of functions, such as alert, that interact with values, such as &quot;hey what&colon;s up?&quot;, to produce an interactive or personalized outcome. 
+</p>
+</body> 
+
+</html>  <!-- Consider whether there are better ways to format paragraphs of text in here...  -->

@@ -1,0 +1,72 @@
+body{
+    background-image: url(stripe_background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    text-align: left;
+    background-color:mediumpurple;
+    margin: 10px 40px;
+    padding:10px 20px;
+    border: dotted rgb(253, 233, 50) 5px;
+    border-radius: 10px;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+    margin: 5px 10px;
+    background-color:firebrick;
+    max-width: auto;
+    max-height: fit-content;
+    border: solid rgb(253, 233, 50) 5px;
+    border-radius: 10px;
+}
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type:none;
+    margin:0; 
+    padding:0; 
+    overflow:hidden;
+}
+li{
+    text-align: center;
+    padding:5px;
+}
+li:hover{
+    background-color: rgb(103, 16, 16);
+    padding:8px;
+}
+li a {
+    color:rgb(249, 221, 205); 
+    text-align:center; 
+    padding:10px 40px; 
+    text-decoration:none;}
+article{
+    text-align: center;
+    color:rgb(56, 18, 49);
+    padding: 10px;
+    margin: 5px 15px;
+    background-color:darkcyan;
+    border: solid rgb(253, 233, 50) 5px;
+    border-radius: 10px;
+}
+h1{
+    font-size:100px;
+}
+img{
+    float: right;
+    margin:-75px 50px;
+    
+}
+h3{
+    margin:-150px, 20px;
+}
+p{
+    font-size: larger;
+    padding:20px 50px;
+}
